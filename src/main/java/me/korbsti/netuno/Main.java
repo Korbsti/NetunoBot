@@ -41,7 +41,7 @@ public class Main {
 	public static AudioPlayerManager playerManager;	
 	
 	public static void main(String[] args) {
-		String token = "ODQ4NjY5NzkzNjc4MzkzNDE1.YLP_Vg.HKVgnEJLJhxj6G32JcHnQEkG6lI";
+		String token = "";
 		try {
 			builder = JDABuilder.createDefault(token)
 			          .setChunkingFilter(ChunkingFilter.ALL) 
